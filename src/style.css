@@ -1,0 +1,157 @@
+.cont12{
+    background-color: #e8edec;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* overflow: hidden; */
+}
+.sidebar{
+    height: 100%;
+    width: 20%;
+    background-color: #e8edec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-inner{
+    width: 80%;
+    height: 95%;
+    background-color: white;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-inner1{
+    background-color: #113b32;
+    width: 90%;
+    height: 60px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.sidebar-inner1:hover{
+    background-color: red;
+}
+.page{
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+    overflow: scroll;
+}
+.nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.text-welcome{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    background-color: #f21f2a;
+    z-index:1;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px;
+    
+}
+.main-box{
+  display: flex;
+ 
+  justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  
+}
+.main-box-child{
+    height: 200vh;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    
+}
+.child1{
+    
+    margin: 60px 20px 20px 20px ;
+    width: 20%;
+    height: 17%;
+    border-radius: 10px;
+    /* height: 200px; */
+    border: 1px solid green;
+    /* background-color: red; */
+}
+.child-inner{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 900;
+}
+.percentage{
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.main-card{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8edec;
+
+}
+.main-cardinner{
+    width: 40%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 1px 2px 3px 4px ;
+    border-radius: 10px;
+}
+.card-text{
+    font-weight: 700;
+    font-size: 30px;
+    color: red;
+    margin-top: 40px;
+    text-align: center;
+}
+.filedsplace{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.logindiv{
+    display: flex;
+    justify-content: center
+}
+.loginbutton{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+}
+.loginbutton:hover{
+    background-color: red;
+}
